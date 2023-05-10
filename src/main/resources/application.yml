@@ -1,0 +1,35 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 885102598399-0qr3f5oeokai0jo2aq09v2meclumnlba.apps.googleusercontent.com
+            clientSecret: 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
+            scope: openid,email,profile,https://www.googleapis.com/auth/youtube.readonly
+
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+
+
+#  datasource:
+#    url: jdbc:mysql://localhost:3307/yohavo
+#    username: tristin
+#    password: tristin
+
+  datasource:
+    url: jdbc:mysql://yohavo-db.c9psjue6tvas.us-west-1.rds.amazonaws.com:3306/yohavo
+    username: Ai2X6z8
+    password: wYpWnmr5FURXkp87B4y6
+
+server:
+  port: 5000
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+

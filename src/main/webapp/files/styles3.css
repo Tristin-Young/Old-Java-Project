@@ -1,0 +1,472 @@
+/*!* Base CSS *!*/
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');*/
+
+
+
+/*.background-index{*/
+/*    background-image: url(/files/images/indexBackground.png);*/
+/*    background-size: 100% 100%;*/
+/*    width: 100%;*/
+/*    min-height: 100vh;*/
+
+/*}*/
+/*.loginLorem{*/
+/*    color: var(--bs-blue);*/
+/*}*/
+/*.white{*/
+/*    background-color: antiquewhite;*/
+/*}*/
+/*.blur{*/
+/*    background: rgba(0,0,0,0.4);*/
+/*    backdrop-filter: saturate(180%) blur(10px);*/
+/*}*/
+
+
+/*.alignleft {*/
+/*    float: left;*/
+/*    margin-right: 15px;*/
+/*}*/
+
+/*.alignright {*/
+/*    float: right;*/
+/*    margin-left: 15px;*/
+/*}*/
+
+/*.aligncenter {*/
+/*    display: block;*/
+/*    margin: 0 auto 15px;*/
+/*}*/
+
+/*a:focus {*/
+/*    outline: 0 solid*/
+/*}*/
+
+/*img {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+/*h1, h2, h3, h4, h5, h6 {*/
+/*    margin: 0 0 15px;*/
+/*    color: #1B1B21;*/
+/*}*/
+
+/*body {*/
+/*    color: #1E1F20;*/
+/*    font-weight: 400;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*}*/
+
+
+/*.selector-for-some-widget {*/
+/*    box-sizing: content-box;*/
+/*}*/
+
+/*a:hover, a {*/
+/*    text-decoration: none*/
+/*}*/
+
+
+/*!*---------------------- Header area start ----------------------*!*/
+/*.header__area {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    z-index: 5;*/
+/*    padding: 17px 4px;*/
+/*}*/
+
+/*.menu-open {*/
+/*    max-width: 42px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*!*---------------------- Header area end ----------------------*!*/
+
+/*!*---------------------- Main Form area start ----------------------*!*/
+
+/*.main__form__area {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    padding: 50px 0;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.img-1 {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 50%;*/
+/*    height: 100%;*/
+/*    z-index: -1;*/
+/*}*/
+
+/*.img-1 img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*.img-2 {*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    width: 50%;*/
+/*    height: 100%;*/
+/*    z-index: -1;*/
+/*}*/
+
+/*.img-2 img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*.form__wrapper {*/
+/*    max-width: 452px;*/
+/*    background: #fff;*/
+/*    padding: 63px 90px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.logo__main {*/
+/*    max-width: 253px;*/
+/*    margin: 0 auto;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.single__input__item input {*/
+/*    width: 100%;*/
+/*    height: 48px;*/
+/*    border: 0;*/
+/*    border-bottom: 2px solid #00A5C5;*/
+/*    padding: 0;*/
+/*    outline: none;*/
+/*    font-size: 28px;*/
+/*    color: #00A5C5;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    line-height: 1.2;*/
+/*}*/
+
+/*.single__input__item {*/
+/*    margin-bottom: 41px;*/
+/*}*/
+
+/*.form__submit button {*/
+/*    width: 178.57px;*/
+/*    height: 33.75px;*/
+/*    background: #F7C23C;*/
+/*    border: 1px solid #F7C23C;*/
+/*    border-radius: 23.96px;*/
+/*    font-size: 15px;*/
+/*    font-weight: 500;*/
+/*    color: #fff;*/
+/*    outline: none;*/
+/*    margin: 0 auto;*/
+/*    display: block;*/
+/*    transition: .3s;*/
+/*}*/
+
+/*.form__btns a {*/
+/*    display: flex;*/
+/*    background: transparent;*/
+/*    border-radius: 50px;*/
+/*    font-size: 19px;*/
+/*    color: #E53935;*/
+/*    font-weight: 400;*/
+/*    line-height: 1.2;*/
+/*    border: 1px solid #E53935;*/
+/*    padding: 8px 20px;*/
+/*    transition: .3s;*/
+/*    height: 45px;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.form__btns a:hover {*/
+/*    box-shadow: 1px 3px 10px #0000001a;*/
+/*}*/
+
+/*.form__submit button:hover {*/
+/*    background-color: transparent;*/
+/*    color: #F7C23C;*/
+/*}*/
+
+/*.form__btns a span {*/
+/*    margin-right: 15px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.form__submit {*/
+/*    padding-top: 4px;*/
+/*}*/
+
+/*.or__btn {*/
+/*    font-size: 24px;*/
+/*    color: #00ADB4;*/
+/*    font-weight: 500;*/
+/*    text-align: center;*/
+/*    padding-top: 37px;*/
+/*    padding-bottom: 33px;*/
+/*    line-height: 1;*/
+/*}*/
+
+/*::-webkit-input-placeholder {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*::-moz-placeholder {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*:-ms-input-placeholder {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*::-ms-input-placeholder {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*::placeholder {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*!*---------------------- Main Form area end ----------------------*!*/
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+.loginLorem{
+    color: var(--bs-secondary);
+}
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    color: #1B1B21;
+}
+
+body {
+    color: #1E1F20;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+a:hover,
+a {
+    text-decoration: none
+}
+
+
+/*---------------------- Header area start ----------------------*/
+
+.header__area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 5;
+    padding: 17px 4px;
+}
+
+.menu-open {
+    max-width: 42px;
+    cursor: pointer;
+}
+
+
+/*---------------------- Header area end ----------------------*/
+
+
+/*---------------------- Main Form area start ----------------------*/
+
+.main__form__area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    height: 100vh;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.img-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+}
+
+.img-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+}
+
+.img-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form__wrapper {
+    max-width: 452px;
+    background: #dddddd;
+    padding: 63px 90px;
+    position: relative;
+    margin-left: 25%;
+    transform: translateX(-50%);
+}
+
+.logo__main {
+    max-width: 253px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.single__input__item input {
+    width: 100%;
+    height: 48px;
+    border: 0;
+    border-bottom: 2px solid #00A5C5;
+    padding: 0;
+    outline: none;
+    font-size: 28px;
+    color: #00A5C5;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2;
+}
+
+.single__input__item {
+    margin-bottom: 41px;
+}
+
+.form__submit button {
+    width: 178.57px;
+    height: 33.75px;
+    background: #F7C23C;
+    border: 1px solid #F7C23C;
+    border-radius: 23.96px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+    transition: .3s;
+}
+
+.form__btns a {
+    display: flex;
+    background: transparent;
+    border-radius: 50px;
+    font-size: 19px;
+    color: #15616D;
+    font-weight: 400;
+    line-height: 1.2;
+    border: 1px solid #15616D;
+    padding: 8px 20px;
+    transition: .3s;
+    height: 45px;
+    align-items: center;
+}
+
+.form__btns a:hover {
+    box-shadow: 1px 3px 10px #0000001a;
+}
+
+.form__submit button:hover {
+    background-color: transparent;
+    color: #F7C23C;
+}
+
+.form__btns a span {
+    margin-right: 15px;
+    position: relative;
+}
+
+.form__submit {
+    padding-top: 4px;
+}
+
+.or__btn {
+    font-size: 24px;
+    color: #00ADB4;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 33px;
+    line-height: 1;
+}
+
+::-webkit-input-placeholder {
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    opacity: 1;
+}
+
+::placeholder {
+    opacity: 1;
+}
+
+
+/*---------------------- Main Form area end ----------------------*/

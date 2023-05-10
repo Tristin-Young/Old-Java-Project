@@ -1,0 +1,312 @@
+@font-face {
+    font-family: Galano;
+    src: url(/files/GalanoGrotesqueBold.woff);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #15616d;
+}
+
+body > nav > div > div > img {
+    width: 40px;
+}
+
+.main-current-orders {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding: 0 10px;
+    height: calc(100vh - 100px);
+}
+
+.main-tickets {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content
+}
+
+.main-past-tickets {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content
+}
+
+.animated-ticket {
+    height: fit-content;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+}
+
+.ticket {
+    background-image: url('/files/Svg/card-bg-large.svg');
+    padding: 28px;
+    text-align: center;
+}
+
+@supports (-webkit-touch-callout: none) {
+    .ticket {
+        padding: 17px;
+    }
+}
+
+.block-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    width: 41vw;
+}
+
+.block-2 {
+    margin-left: 2vw;
+    text-align: center;
+    width: 15.8vw;
+}
+
+.t-header {
+    font-size: 1vw;
+}
+
+ .t-body {
+    font-size: 0.8vw;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.ads-desktop {
+    border: 2px solid red;
+    height: 50vh;
+}
+
+.ads-mobile {
+    display: none;
+    border: 2px solid red;
+    height: 6vh;
+    width: 60vw;
+    min-height: 122px;
+    margin-top: 35px;
+}
+
+.past-block-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    width: 41vw;
+}
+
+.past-block-2 {
+    margin-left: 2vw;
+    text-align: center;
+    width: 17vw;
+}
+
+h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.card-img-overlay {
+ position: static !important;
+}
+
+h5 {
+    background: linear-gradient(0deg, rgba(251, 242, 136, 1) 25%, rgba(183, 127, 43, 1) 45%, rgba(251, 242, 136, 1) 75%);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #fbf288;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Galano;
+}
+
+.blur {
+    background: rgb(194, 194, 194, 0.9);
+    /* background: rgba(0,255,0,0.7); */
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+.btn-sec {
+    color: gold;
+    background-color: #312456;
+    border-color: #312456;
+}
+
+h6 {
+    font-weight: 700 !important;
+}
+
+.bg-image {
+    background-image: url(images/clouds.jpg);
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.animated-ticket {
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: slideInFromLeft;
+}
+
+.card {
+    border: none;
+    background-color: unset;
+    background-image: url(/files/Svg/card-bg-large.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: 192px;
+}
+
+.cardShadow {
+    -webkit-filter: drop-shadow(0rem 0.3rem .4rem rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0rem 0.3rem .4rem rgba(0, 0, 0, 0.2));
+}
+
+.nowrap {
+    white-space: none;
+}
+
+.delete-account{
+    color: #FFFFFF;
+}
+
+.delete-account:hover{
+    color: #FFFFFF;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    z-index: 10;
+}
+
+@media (max-width: 1400px) {
+
+    .card-img-overlay {
+        padding: 0.2em 1em 1em 1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .card-img-overlay {
+        padding: 0.2em 1em 1em 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .t-header {
+        font-size: 1.8vw;
+    }
+
+    .t-body {
+        font-size: 1.4vw
+    }
+
+    .main-past-tickets .t-header {
+        font-size: 1.2vw;
+    }
+
+    .main-past-tickets .t-body {
+        font-size: 0.8vw;
+    }
+
+    .ads-desktop {
+        display: none;
+    }
+
+    .ads-mobile {
+        display: block;
+    }
+
+    .main-current-orders {
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: 0.7rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+    }
+
+    .card {
+        background-image: url(/files/Svg/card-bg-medium.svg);
+    }
+
+    .card-img-overlay {
+        padding: 0.2em 1em 1em 1rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    body > nav > div > div > img {
+        width: 30px;
+    }
+
+    h3 {
+        font-size: 0.6rem;
+    }
+
+    .card-img-overlay {
+        padding: 0.2em 1em 1em 1rem;
+    }
+
+    .p-2 {
+        padding: 0 !important;
+    }
+
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    h6 {
+        font-size: 0.65rem;
+    }
+
+    .nowrap {
+        white-space: nowrap;
+    }
+
+    .card {
+        background-image: url(/files/Svg/card-bg-small.svg);
+    }
+
+    div.time {
+        line-height: 0.5;
+    }
+
+    div.time > div > span {
+        font-size: 0.65rem;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
